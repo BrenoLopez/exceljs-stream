@@ -1,0 +1,21 @@
+{
+  "name": "test-exceljs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --max-old-space-size=200 -r climem index.js &",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "climem": "^1.0.3",
+    "csv-write-stream": "^2.0.0",
+    "exceljs": "^1.6.3",
+    "express": "^4.16.4"
+  }
+}
